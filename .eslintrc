@@ -1,0 +1,3 @@
+{
+    "extends": ["@fansy/eslint-config"]
+}

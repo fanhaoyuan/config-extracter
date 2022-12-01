@@ -12,6 +12,7 @@
     "author": "Fansy <418536538@qq.com>",
     "license": "MIT",
     "devDependencies": {
+        "@fansy/eslint-config": "^1.1.0",
         "@fansy/prettier-config": "^1.0.0"
     }
 }
