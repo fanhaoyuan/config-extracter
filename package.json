@@ -1,0 +1,17 @@
+{
+    "name": "config-extracter",
+    "version": "0.1.0",
+    "description": "A lib for resolving config in Node.js",
+    "main": "dist/index.js",
+    "scripts": {},
+    "keywords": [
+        "config",
+        "typescript",
+        "javascript"
+    ],
+    "author": "Fansy <418536538@qq.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@fansy/prettier-config": "^1.0.0"
+    }
+}

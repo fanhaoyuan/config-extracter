@@ -1,0 +1,21 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@fansy/prettier-config': ^1.0.0
+
+devDependencies:
+  '@fansy/prettier-config': 1.0.0
+
+packages:
+
+  /@fansy/prettier-config/1.0.0:
+    resolution: {integrity: sha512-zevewtIYvHl9T7Ejkghng0eDbljWksqkvuEbje8ifILY+Vp4+Y77GxRk3HkQtMP0GEXq/UVDDd7f1+t/hb/qOQ==}
+    dependencies:
+      prettier: 2.8.0
+    dev: true
+
+  /prettier/2.8.0:
+    resolution: {integrity: sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
