@@ -8,7 +8,8 @@
     "scripts": {
         "dev": "rimraf dist && rollup -c rollup.config.ts --configPlugin typescript -w",
         "build": "rimraf dist && rollup -c rollup.config.ts --configPlugin typescript",
-        "eslint": "eslint ."
+        "eslint": "eslint .",
+        "deploy": "pnpm run build && pnpm publish --no-git-check"
     },
     "keywords": [
         "config",
