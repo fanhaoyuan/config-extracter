@@ -1,3 +1,6 @@
 {
-    "extends": ["@fansy/eslint-config"]
+    "extends": ["@fansy/eslint-config"],
+    "rules": {
+        "@typescript-eslint/no-var-requires": "off"
+    }
 }

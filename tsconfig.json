@@ -1,14 +1,14 @@
 {
     "compilerOptions": {
-        "target": "es6",
-        "module": "commonjs",
+        "target": "ESNext",
+        "module": "ESNext",
         "esModuleInterop": true,
         "strict": true,
         "resolveJsonModule": true,
         "moduleResolution": "node",
         "allowJs": true,
         "outDir": "dist",
-        "declaration": true
+        "declaration": false
     },
     "include": ["src/**/*", "__tests__/**/*"],
     "exclude": ["node_modules", "dist"]
