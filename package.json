@@ -9,7 +9,8 @@
         "dev": "rimraf dist && rollup -c rollup.config.ts --configPlugin typescript -w",
         "build": "rimraf dist && rollup -c rollup.config.ts --configPlugin typescript",
         "eslint": "eslint .",
-        "deploy": "pnpm run build && pnpm publish --no-git-check"
+        "deploy": "pnpm run build && pnpm publish --no-git-check",
+        "changelog": "facteur create"
     },
     "keywords": [
         "config",
@@ -24,6 +25,7 @@
         "@rollup/plugin-typescript": "^10.0.1",
         "@types/fs-extra": "^9.0.13",
         "@types/node": "^18.11.10",
+        "facteur": "^0.2.0",
         "rimraf": "^3.0.2",
         "rollup": "^3.5.1",
         "rollup-plugin-dts": "^5.0.0",
